@@ -49,7 +49,7 @@ const router = createBrowserRouter([
 ]);
 
 const siteName = 'Sample Title';
-const siteDesc = 'Sample Description';
+const siteDesc = 'Sample Descriptiond';
 const siteKeywords = 'Sample Keywords';
 const siteType = 'Sample Typed';
 
