@@ -51,7 +51,7 @@ const router = createBrowserRouter([
 const siteName = 'Sample Title';
 const siteDesc = 'Sample Description';
 const siteKeywords = 'Sample Keywords';
-const siteType = 'Sample Typed a';
+const siteType = 'Sample Typed';
 
 function App() {
 
