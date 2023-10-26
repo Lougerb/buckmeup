@@ -9,7 +9,7 @@ function Nav() {
     }
 
     return ( 
-        <nav ref={navEl} className={`nav ${!nav?'':'show-nav'}`}>
+        <nav ref={navEl} className={`nav ${!nav?'':'show-nav '}`}>
             <div className="nav-wrapper">
                 <div className="nav-trigger layout-sp" onClick={trigger}>
                     <div className="wrapper">
