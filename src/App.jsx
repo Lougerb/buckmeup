@@ -1,15 +1,5 @@
-
-// Layout
-import Nav from './Project/Layout/Nav/Nav';
-import Header from './Project/Layout/Header/Header';
-import Footer from './Project/Layout/Footer/Footer';
 // Content
 import Home from './Project/Pages/Home/Home';
-import About from './Project/Pages/About/About';
-import Product from './Project/Pages/Product/Product';
-import Services from './Project/Pages/Services/Services';
-import Contact from './Project/Pages/Contact/Contact';
-import NotFound from './Project/Pages/NotFound/NotFound';
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
 import favico from './Project/Components/img/favico.png';
@@ -26,32 +16,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home/>,
   },
-  {
-    path: "/about/",
-    element: <About/>,
-  },
-  {
-    path: "/product/",
-    element: <Product/>,
-  },
-  {
-    path: "/services/",
-    element: <Services/>,
-  },
-  {
-    path: "/contact/",
-    element: <Contact/>,
-  },
-  {
-    path: "*",
-    element: <NotFound/>,
-  },
 ]);
 
-const siteName = 'Sample Title';
-const siteDesc = 'Sample Descriptiond';
+const siteName = 'Buck me up';
+const siteDesc = 'Sample Description';
 const siteKeywords = 'Sample Keywords';
-const siteType = 'Sample Typed';
+const siteType = 'Sample Type';
 
 function App() {
 
@@ -75,14 +45,9 @@ function App() {
         <meta property="og:site_name" content={siteName}/>
     </Helmet>
 
-    <Header />
-    <Nav />
-
     <div className="main">
         <RouterProvider router={router} />
     </div>
-
-    <Footer />
 
 </div>
   )

@@ -5,10 +5,16 @@
 @use './Project//Components/Input/Textbox/input-textbox';
 @use './Project//Components/Input/Checkbox/input-checkbox';
 @use './Project//Components/Input/Radio/input-radio';
+
+// Buttons
+
+@use './Project//Components/buttons/Primary';
+
 // layout
 @import  './Project/Layout/Header/Header';
 @import  './Project/Layout/Footer/Footer';
 @import  './Project/Layout/Nav/Nav';
+@import  './Project/Layout/Layout/Layout';
 
 // pages
 @import  './Project/Pages/About/About';

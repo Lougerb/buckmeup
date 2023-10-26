@@ -1,0 +1,14 @@
+@use '../../Components/scss/mixin' as *;
+@use '../../Components/scss/variables' as *;
+
+$pc-layout: 120rem;
+$pc-layout-padding: 2rem;
+
+.layout {
+    width: 100%;
+
+    @include mq_pc {
+        max-width: calc($pc-layout + $pc-layout-padding);
+        padding: 0 $pc-layout-padding;
+    }
+}

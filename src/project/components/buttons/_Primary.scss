@@ -1,0 +1,30 @@
+@use '../../Components/scss/mixin' as *;
+@use '../../Components/scss/variables' as *;
+
+$shadow: 0px 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+
+.button-primary {
+    display: block;
+
+    &__btn {
+        display: block;
+        border: none;
+        background: linear-gradient(90deg, rgba(126,255,167,1) 0%, rgba(94,167,253,1) 100%);
+        width: fit-content;
+        height: 5rem;
+        padding: 0 2rem;
+        line-height: 5rem;
+        text-align: center;
+        border-radius: 5rem;
+        border: none;
+        color: #fff;
+        font-family: $font-rubik;
+        font-size: 2rem;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:active {
+            filter: brightness(0.8);
+        }
+    }
+}
